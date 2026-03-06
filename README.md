@@ -1,8 +1,33 @@
 # BookMySalon – Full-Stack Microservices Project
 
+<div align="center">
+
+![Architecture](images/architecture.png)
+
+[![Backend](https://img.shields.io/badge/Backend-Spring%20Boot-success?style=for-the-badge&logo=springboot)](#-skills-demonstrated-in-this-project)
+[![Frontend](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](#-skills-demonstrated-in-this-project)
+[![Architecture](https://img.shields.io/badge/Architecture-Microservices-blueviolet?style=for-the-badge)](#-core-architecture-used)
+[![Messaging](https://img.shields.io/badge/Messaging-RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)](#-core-architecture-used)
+[![Security](https://img.shields.io/badge/Security-Keycloak-0052CC?style=for-the-badge&logo=keycloak&logoColor=white)](#-core-architecture-used)
+
+</div>
+
 BookMySalon is a full-stack salon booking platform built to demonstrate production-style backend architecture with microservices and a modern frontend application.
 
 This project highlights my ability to design and implement distributed systems using Spring Boot, secure APIs, event-driven communication, and frontend integration.
+
+---
+
+## 📌 Table of Contents
+
+- [🚀 Project Overview](#-project-overview)
+- [🧠 Skills Demonstrated in This Project](#-skills-demonstrated-in-this-project)
+- [🏗️ Microservices in This Repository](#️-microservices-in-this-repository)
+- [⚙️ Core Architecture Used](#️-core-architecture-used)
+- [🖼️ Architecture & Product Preview](#️-architecture--product-preview)
+- [📂 Project Structure](#-project-structure)
+- [✅ What This Project Communicates to Recruiters / HR](#-what-this-project-communicates-to-recruiters--hr)
+- [👨‍💻 Author Note](#-author-note)
 
 ---
 
@@ -67,6 +92,32 @@ Each service is independently structured with its own configuration, controller,
 
 ---
 
+## 🖼️ Architecture & Product Preview
+
+### System Design & Infra
+
+| Architecture | Eureka Dashboard | Booking API |
+|---|---|---|
+| ![Architecture Diagram](images/architecture.png) | ![Eureka Dashboard](images/eureka-dashboard.png) | ![Booking API](images/booking-api.png) |
+
+### Authentication & Access
+
+| User Login | Keycloak Login |
+|---|---|
+| ![User Login](images/user-login.png) | ![Keycloak Login](images/keycloak-login.png) |
+
+### Core Product Experience
+
+| Salon Discovery | Booking Flow | Frontend Booking |
+|---|---|---|
+| ![Salon Listing](images/salon.png) | ![Booking Dashboard](images/booking-dashboard.png) | ![Frontend Booking](images/frontend-booking.png) |
+
+### Payments
+
+![Payment Module](images/payment.png)
+
+---
+
 ## 📂 Project Structure
 
 ```text
@@ -81,6 +132,7 @@ BookMySalon/
 │   ├── gateway-server/
 │   ├── eurekaserver/
 │   └── docker-compose/
+├── images/
 └── frontend/
 ```
 
@@ -108,4 +160,3 @@ If you are reviewing this project for hiring, you can evaluate my:
 - API design and integration ability
 - Microservices communication strategies
 - Full-stack delivery skills
-
